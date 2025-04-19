@@ -70,7 +70,7 @@ export default function AppointmentsPage() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold mb-4">Need a customized session?</h3>
                   <p className="text-muted-foreground mb-6">
-                    If you have specific requirements or would like a tailored session with our team, we're happy to accommodate your needs.
+                    If you have specific requirements or would like a tailored session with our team, we&apos;re happy to accommodate your needs.
                   </p>
                   <Button variant="outline" className="w-full sm:w-auto">
                     Contact Us

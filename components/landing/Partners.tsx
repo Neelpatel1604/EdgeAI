@@ -1,10 +1,8 @@
 'use client';
 import React, { useState } from "react";
 import Image from "next/image";
-import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ChevronRight, Globe, Cpu, Server } from "lucide-react";
-import { motion } from "framer-motion";
 
 export function Partners() {
   const [activePartner, setActivePartner] = useState("nvidia");
@@ -25,7 +23,7 @@ export function Partners() {
       logo: "/intel.png",
       description: "Utilizing advanced CPU and AI acceleration technologies for enterprise-grade computing",
       icon: <Cpu className="w-8 h-8 text-blue-500" />,
-      details: "Intel's robust processors and AI accelerators power our enterprise solutions, delivering reliable performance for mission-critical deployments.",
+      details: "Intel&apos;s robust processors and AI accelerators power our enterprise solutions, delivering reliable performance for mission-critical deployments.",
       color: "from-blue-500 to-indigo-700"
     },
     {
@@ -34,7 +32,7 @@ export function Partners() {
       logo: "/Advantech.png",
       description: "Providing robust, industrial-grade edge computing hardware designed for mission-critical AI deployments",
       icon: <Server className="w-8 h-8 text-purple-500" />,
-      details: "Advantech's industrial-grade hardware ensures our solutions perform reliably even in the most demanding environments, from factory floors to remote installations.",
+      details: "Advantech&apos;s industrial-grade hardware ensures our solutions perform reliably even in the most demanding environments, from factory floors to remote installations.",
       color: "from-purple-500 to-violet-700"
     }
   ];
@@ -153,7 +151,7 @@ export function Partners() {
           <TabsContent value="innovation" className="bg-white p-6 rounded-lg shadow-sm border border-[#022179]/10">
             <h3 className="text-xl font-semibold mb-3">Continuous Innovation</h3>
             <p className="text-muted-foreground">
-              Together with our partners, we continually push the boundaries of what's possible, incorporating the latest advancements in AI technology to keep our solutions at the cutting edge.
+              Together with our partners, we continually push the boundaries of what&apos;s possible, incorporating the latest advancements in AI technology to keep our solutions at the cutting edge.
             </p>
           </TabsContent>
         </Tabs>

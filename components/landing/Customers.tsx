@@ -128,7 +128,7 @@ export function Customers() {
                 <TabsContent value="testimonial" className="py-4">
                   <div className="bg-muted/50 p-6 rounded-lg border">
                     <blockquote className="italic">
-                      "{selectedCustomer.testimonial}"
+                      &quot;{selectedCustomer.testimonial}&quot;
                     </blockquote>
                     <div className="mt-4 font-medium">
                       — {selectedCustomer.name} Team
@@ -233,7 +233,7 @@ function MoorcheFeature() {
               <Button 
                 key={feature.id}
                 variant={activeTab === feature.id ? "default" : "ghost"} 
-                className={`justify-start text-left h-auto py-3 ${activeTab === feature.id ? "" : "hover:text-[#022179] "}`}
+                className={`justify-start text-left h-auto py-3 ${activeTab === feature.id ? "" : "hover:text-[#dddfe5] "}`}
                 onClick={() => setActiveTab(feature.id)}
               >
                 <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Shield, Fingerprint, Cpu, Database, Lock, BarChart } from "lucide-react";
-import { Header } from "@/components/landing/Header";
 
 // Changed from lowercase 'page' to uppercase 'Page' and to a default export
 export default function Page() {

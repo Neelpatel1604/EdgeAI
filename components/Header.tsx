@@ -4,11 +4,11 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { 
   NavigationMenu, 
-  NavigationMenuContent, 
+  // NavigationMenuContent,  // Remove or comment this line
   NavigationMenuItem, 
   NavigationMenuLink, 
   NavigationMenuList, 
-  NavigationMenuTrigger 
+  // NavigationMenuTrigger  // Remove or comment this line
 } from "@/components/ui/navigation-menu";
 import { Menu } from "lucide-react";
 import Link from "next/link";

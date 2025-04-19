@@ -1,6 +1,6 @@
 // components/LandingPage.tsx
 import React from "react";
-import { Header } from "@/components/landing/Header";
+// import { Header } from "@/components/landing/Header";
 import { Hero } from "@/components/landing/Hero";
 import { Steps } from "@/components/landing/Steps";
 import { ValueProps } from "@/components/landing/ValueProps";
