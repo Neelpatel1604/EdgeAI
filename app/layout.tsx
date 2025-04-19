@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { fonts } from "@/lib/fonts";
+import { Header } from "@/components/landing/Header";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body
         className={`${fonts.sans.variable} ${fonts.mono.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>
