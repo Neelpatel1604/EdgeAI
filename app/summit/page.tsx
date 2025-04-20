@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function SummitPage() {
   const upcomingEvent = {
-    title: "Edge AI Innovations Summit 2023",
+    title: "Edge AI Innovations Summit 2024",
     date: "8th November, 2024",
     location: "University of Toronto, Schwartz Reisman Innovation Campus",
     description: "Join industry leaders, researchers, and practitioners for three days of in-depth discussions, workshops, and networking focused on the latest advancements in Edge AI technologies.",
